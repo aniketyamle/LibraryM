@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="Package.Delete_Account"
+          hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5"
+          alignment="top_left">
+    <padding>
+        <Insets left="100" top="100" />
+    </padding>
+
+    <Label text="Enter Library ID" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="delete" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button text="Delete Account" GridPane.rowIndex="3" GridPane.columnIndex="0" onMouseClicked="#validate"/>
+
+    <Label GridPane.rowIndex="5" GridPane.columnIndex="0" fx:id="label"/>
+</GridPane>
