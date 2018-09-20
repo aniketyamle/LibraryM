@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="Package.Account"
+          hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5"
+          alignment="top_left">
+    <padding>
+        <Insets left="100" top="100" />
+    </padding>
+    <Label text="Issue a book" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="1" onMouseClicked="#onIssue"/>
+
+    <Label text="Create a new account" GridPane.columnIndex="10" GridPane.rowIndex="0"/>
+    <Button text="Create" GridPane.columnIndex="10" GridPane.rowIndex="1" onMouseClicked="#OnCreate"/>
+
+    <Label text="Return a book" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Button text="Return" GridPane.rowIndex="5" GridPane.columnIndex="0" onMouseClicked="#onReturn"/>
+
+    <Label text="Delete a account" GridPane.rowIndex="4" GridPane.columnIndex="10"/>
+    <Button text="Delete" GridPane.rowIndex="5" GridPane.columnIndex="10" onMouseClicked="#OnDelete"/>
+
+</GridPane>

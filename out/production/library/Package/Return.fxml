@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="Package.Return"
+          hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5"
+          alignment="top_left">
+    <padding>
+        <Insets left="100" top="100" />
+    </padding>
+    <Label text="Enter Book Name" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="Book" promptText="Book Name" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+    <Label text="Enter the name of the Issuee" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="FirstName" promptText="First Name"  GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <TextField fx:id="LastName" promptText="Last Name"  GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <Button text="Return"  GridPane.rowIndex="7" GridPane.columnIndex="0" onMouseClicked="#Returnit" />
+    <Label fx:id="label" GridPane.rowIndex="10" GridPane.columnIndex="0"/>
+</GridPane>

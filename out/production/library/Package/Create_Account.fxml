@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px  Helvetica"
+          vgap="5" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Create_Account">
+    <padding>
+        <Insets left="100" top="100" />
+    </padding>
+
+    <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Email" GridPane.columnIndex="0" GridPane.rowIndex="10" />
+    <TextField fx:id = "Email" promptText="someone@example.com" GridPane.columnIndex="0" GridPane.rowIndex="11" />
+
+    <Label text="Mobile No." GridPane.columnIndex="0" GridPane.rowIndex="15" />
+    <TextField fx:id = "MobileNo" GridPane.columnIndex="0" GridPane.rowIndex="16" />
+
+    <Label text="Date of Birth" GridPane.columnIndex="0" GridPane.rowIndex="20" />
+    <DatePicker fx:id = "DateOfBirth" promptText="DD/MM/YYYY" GridPane.columnIndex="0" GridPane.rowIndex="21" />
+
+    <Button text="New User" GridPane.columnIndex="0" GridPane.rowIndex="25"  onMouseClicked="#validate" />
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+
+    <Label GridPane.columnIndex="0" GridPane.rowIndex="29" fx:id="label"/>
+
+</GridPane>
