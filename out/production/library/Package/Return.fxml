@@ -22,6 +22,6 @@
     <TextField fx:id="FirstName" promptText="First Name"  GridPane.rowIndex="5" GridPane.columnIndex="0"/>
     <TextField fx:id="LastName" promptText="Last Name"  GridPane.rowIndex="5" GridPane.columnIndex="1"/>
 
-    <Button text="Return"  GridPane.rowIndex="7" GridPane.columnIndex="0" onMouseClicked="#Returnit" />
+    <Button text="Return"  GridPane.rowIndex="7" GridPane.columnIndex="0" onAction="#Returnit" />
     <Label fx:id="label" GridPane.rowIndex="10" GridPane.columnIndex="0"/>
 </GridPane>

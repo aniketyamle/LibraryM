@@ -16,15 +16,15 @@
         <Insets left="100" top="100" />
     </padding>
     <Label text="Issue a book" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-    <Button text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="1" onMouseClicked="#onIssue"/>
+    <Button text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#onIssue"/>
 
     <Label text="Create a new account" GridPane.columnIndex="10" GridPane.rowIndex="0"/>
-    <Button text="Create" GridPane.columnIndex="10" GridPane.rowIndex="1" onMouseClicked="#OnCreate"/>
+    <Button text="Create" GridPane.columnIndex="10" GridPane.rowIndex="1" onAction="#OnCreate"/>
 
     <Label text="Return a book" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <Button text="Return" GridPane.rowIndex="5" GridPane.columnIndex="0" onMouseClicked="#onReturn"/>
+    <Button text="Return" GridPane.rowIndex="5" GridPane.columnIndex="0" onAction="#onReturn"/>
 
     <Label text="Delete a account" GridPane.rowIndex="4" GridPane.columnIndex="10"/>
-    <Button text="Delete" GridPane.rowIndex="5" GridPane.columnIndex="10" onMouseClicked="#OnDelete"/>
+    <Button text="Delete" GridPane.rowIndex="5" GridPane.columnIndex="10" onAction="#OnDelete"/>
 
 </GridPane>

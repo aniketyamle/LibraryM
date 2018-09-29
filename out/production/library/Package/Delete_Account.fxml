@@ -14,7 +14,7 @@
 
     <Label text="Enter Library ID" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
     <TextField fx:id="delete" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <Button text="Delete Account" GridPane.rowIndex="3" GridPane.columnIndex="0" onMouseClicked="#validate"/>
+    <Button text="Delete Account" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#validate"/>
 
     <Label GridPane.rowIndex="5" GridPane.columnIndex="0" fx:id="label"/>
 </GridPane>

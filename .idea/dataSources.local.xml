@@ -11,5 +11,31 @@
       <user-name>library-36395493</user-name>
       <introspection-schemas>*:library-36395493</introspection-schemas>
     </data-source>
+    <data-source name="identifier.sqlite" uuid="de64dc2e-32ff-43de-897a-99111eb0fecf">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="library-36395493@localhost" uuid="7bed65b3-3e9f-4699-b73c-47c8fbaf4d80">
+      <database-info product="MySQL" version="5.5.5-10.1.35-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:library-36395493</introspection-schemas>
+    </data-source>
+    <data-source name="Library@library.c4flwkue0p9r.ap-south-1.rds.amazonaws.com" uuid="70c1558e-ad5f-46f7-858a-a0a39856dba7">
+      <database-info product="MySQL" version="5.7.23-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Smitesh98</user-name>
+      <introspection-schemas>*:Library</introspection-schemas>
+    </data-source>
   </component>
 </project>

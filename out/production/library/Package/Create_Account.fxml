@@ -29,7 +29,7 @@
     <Label text="Date of Birth" GridPane.columnIndex="0" GridPane.rowIndex="20" />
     <DatePicker fx:id = "DateOfBirth" promptText="DD/MM/YYYY" GridPane.columnIndex="0" GridPane.rowIndex="21" />
 
-    <Button text="New User" GridPane.columnIndex="0" GridPane.rowIndex="25"  onMouseClicked="#validate" />
+    <Button text="New User" GridPane.columnIndex="0" GridPane.rowIndex="25"  onAction="#validate" />
     <columnConstraints>
         <ColumnConstraints />
         <ColumnConstraints />
