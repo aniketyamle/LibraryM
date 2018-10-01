@@ -6,7 +6,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
 <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Return">
@@ -21,13 +20,7 @@
     <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
     <Button onAction="#Returnit" text="Return" GridPane.columnIndex="0" GridPane.rowIndex="7" />
-
-   <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="11">
-      <children>
-         <Label fx:id="label" layoutY="14.0" prefHeight="20.0" prefWidth="573.0" />
-      </children>
-   </Pane>
-   <Button mnemonicParsing="false" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="11" onAction="#back"/>
+   <Button mnemonicParsing="false" onAction="#back" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="11" alignment="BOTTOM_RIGHT"/>
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />

@@ -5,6 +5,7 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
@@ -30,10 +31,15 @@
     <Button onAction="#validate" text="New User" GridPane.rowIndex="26" />
 
     <Label fx:id="label" GridPane.rowIndex="31" />
-   <Button mnemonicParsing="false" text="Back" GridPane.columnIndex="2" onAction="#back" GridPane.rowIndex="29" />
+   <BorderPane prefHeight="5.0" prefWidth="92.0" GridPane.columnIndex="3" GridPane.rowIndex="26">
+      <center>
+         <Button mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="60.0" text="Back" BorderPane.alignment="CENTER" />
+      </center>
+   </BorderPane>
     <columnConstraints>
         <ColumnConstraints />
         <ColumnConstraints />
+      <ColumnConstraints />
       <ColumnConstraints />
     </columnConstraints>
     <rowConstraints>
