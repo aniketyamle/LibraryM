@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69064113-6d5f-4367-af21-53c2e85c0b51" name="Default Changelist" comment="New updates">
-      <change afterPath="$PROJECT_DIR$/src/Package/Add_Books.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/Add_Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package/Error_Dialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package/Success_Dialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Create_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Create_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Issue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Issue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Issue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Issue.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Return.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Return.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Return.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Check_Book.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Check_Book.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Check_book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Check_book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Create_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Create_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Create_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Create_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Delete_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Delete_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Delete_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Delete_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Issue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Issue.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Issue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Return.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Return.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Return.java" afterDir="false" />
@@ -131,84 +110,37 @@
       <file leaf-file-name="Return.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Package/Return.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c1558e-ad5f-46f7-858a-a0a39856dba7/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dialog_transactions.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Package/Dialog_transactions.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="Issue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin Account.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/Admin Account.fxml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="254">
+              <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Return.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Package/Return.fxml">
-          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Package/Main.java">
+      <file leaf-file-name="Issue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="933">
+              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Issue.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Package/Issue.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -245,7 +177,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/de64dc2e-32ff-43de-897a-99111eb0fecf/console.sql" />
         <option value="$PROJECT_DIR$/src/Package/DB.java" />
         <option value="$PROJECT_DIR$/src/Package/User.java" />
-        <option value="$PROJECT_DIR$/src/Package/Admin.java" />
         <option value="$PROJECT_DIR$/src/Package/Admin Account.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Admin_Account.java" />
         <option value="$PROJECT_DIR$/src/Package/Transactions.java" />
@@ -256,24 +187,27 @@
         <option value="$PROJECT_DIR$/src/Package/Delete_Account.java" />
         <option value="$PROJECT_DIR$/src/Package/Account.java" />
         <option value="$PROJECT_DIR$/src/Package/Dialog_transactions.fxml" />
-        <option value="$PROJECT_DIR$/src/Package/Issue.java" />
         <option value="$PROJECT_DIR$/src/Package/Check_Book.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Check_book.java" />
         <option value="$PROJECT_DIR$/src/Package/Add_Books.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Add_Books.java" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/src/Package/Main.java" />
-        <option value="$PROJECT_DIR$/src/Package/Admin.fxml" />
-        <option value="$PROJECT_DIR$/src/Package/Issue.fxml" />
-        <option value="$PROJECT_DIR$/src/Package/Return.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Create_Account.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Delete_Account.fxml" />
         <option value="$PROJECT_DIR$/src/Package/Main.fxml" />
         <option value="$PROJECT_DIR$/src/Package/styles.css" />
-        <option value="$PROJECT_DIR$/src/Package/Return.java" />
         <option value="$PROJECT_DIR$/src/Package/Account.fxml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1a052433-12c1-42e3-8c6f-40608a4dd1f4/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70c1558e-ad5f-46f7-858a-a0a39856dba7/console.sql" />
+        <option value="$PROJECT_DIR$/src/Package/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/Package/Admin.java" />
+        <option value="$PROJECT_DIR$/src/Package/Main.java" />
+        <option value="$PROJECT_DIR$/src/Package/Issue.java" />
+        <option value="$PROJECT_DIR$/src/Package/Issue.fxml" />
+        <option value="$PROJECT_DIR$/src/Package/Return.fxml" />
+        <option value="$PROJECT_DIR$/src/Package/Error_Dialog.fxml" />
+        <option value="$PROJECT_DIR$/src/Package/Success_Dialog.fxml" />
+        <option value="$PROJECT_DIR$/src/Package/Return.java" />
       </list>
     </option>
   </component>
@@ -304,6 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -327,8 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,6 +352,7 @@
       <workItem from="1539182514919" duration="261000" />
       <workItem from="1539229479417" duration="91000" />
       <workItem from="1539236672835" duration="1568000" />
+      <workItem from="1539704275801" duration="3428000" />
     </task>
     <task id="LOCAL-00001" summary="New updates">
       <created>1537423321639</created>
@@ -510,11 +445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538401563821</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New updates">
+      <created>1539704352891</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539704352891</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86628000" />
+    <option name="totallyTimeSpent" value="90056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,30 +469,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3279743" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32467532" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3215434" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.27272728" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.27009645" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.66883117" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.4977307" weight="0.6688103" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -563,18 +506,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.4977307" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.4977307" weight="0.6688103" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.27009645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info id="DB Browser" order="7" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.66883117" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.27272728" />
@@ -584,16 +529,15 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25869894" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30937973" />
       <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3279743" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
     </layout-to-restore>
   </component>
@@ -643,27 +587,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Package/Return.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package/Add_Books.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -843,13 +766,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/Package/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package/Create_Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -878,72 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Add_Books.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Add_Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Account.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Return.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Admin Account.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a052433-12c1-42e3-8c6f-40608a4dd1f4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Return.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -954,20 +808,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c1558e-ad5f-46f7-858a-a0a39856dba7/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/Package/Add_Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Dialog_transactions.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Package/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Admin Account.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Admin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="80" column="70" selection-start-line="76" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Return.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Error_Dialog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Success_Dialog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Return.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c1558e-ad5f-46f7-858a-a0a39856dba7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Delete_Account.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Issue.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
