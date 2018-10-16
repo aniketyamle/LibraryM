@@ -10,69 +10,92 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px  Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Create_Account">
-    <padding>
-        <Insets left="50" top="50" />
-    </padding>
+<?import javafx.scene.control.DialogPane?>
 
-    <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-    <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-    <Label text="Email" GridPane.columnIndex="0" GridPane.rowIndex="10" />
-    <TextField fx:id="Email" promptText="someone@example.com" GridPane.columnIndex="0" GridPane.rowIndex="11" />
+<DialogPane  fx:id="colordialog" stylesheets="@styles.css" fx:controller="Package.Create_Account"  xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" >
+    <headerText>
+        Create a Account
+    </headerText>
+    <content>
+        <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px  Helvetica" vgap="5">
+            <padding>
+                <Insets left="50" top="25" />
+            </padding>
 
-    <Label text="Mobile No." GridPane.columnIndex="0" GridPane.rowIndex="15" />
-    <TextField fx:id="MobileNo" GridPane.columnIndex="0" GridPane.rowIndex="16" />
+            <Label text="Name" GridPane.rowIndex="1" />
+            <TextField fx:id="FirstName" promptText="First Name" GridPane.rowIndex="2" />
+            <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 
-    <Label text="Date of Birth" GridPane.columnIndex="0" GridPane.rowIndex="20" />
-    <DatePicker fx:id="DateOfBirth" promptText="DD/MM/YYYY" GridPane.columnIndex="0" GridPane.rowIndex="21" />
+            <Label text="Email" GridPane.rowIndex="8" />
+            <TextField fx:id="Email" promptText="someone@example.com" GridPane.rowIndex="12" />
 
-    <Button onAction="#validate" text="New User" GridPane.rowIndex="26" />
+            <Label text="Mobile No." GridPane.rowIndex="19" />
+            <TextField fx:id="MobileNo" GridPane.rowIndex="24" />
 
-    <Label fx:id="label" GridPane.rowIndex="31" />
-   <BorderPane prefHeight="5.0" prefWidth="92.0" GridPane.columnIndex="3" GridPane.rowIndex="26">
+            <Label text="Date of Birth" GridPane.rowIndex="29" />
+            <DatePicker fx:id="DateOfBirth" promptText="DD/MM/YYYY" GridPane.rowIndex="33" />
 
-   </BorderPane>
-    <columnConstraints>
-        <ColumnConstraints />
-        <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-    </columnConstraints>
-    <rowConstraints>
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-        <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-    </rowConstraints>
+            <Button onAction="#validate" text="New User" GridPane.rowIndex="37" />
 
-</GridPane>
+            <Label fx:id="label" GridPane.rowIndex="42" />
+            <BorderPane prefHeight="5.0" prefWidth="92.0" GridPane.columnIndex="3" GridPane.rowIndex="37">
+
+            </BorderPane>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+
+        </GridPane>
+
+    </content>
+
+</DialogPane>

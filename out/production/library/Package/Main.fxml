@@ -9,12 +9,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="CENTER" hgap="10" prefHeight="410.0" prefWidth="627.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Main">
-    <Label text="Username : " GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <Label text="Password : " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+<GridPane  fx:id="pane" alignment="CENTER" hgap="10" prefHeight="410.0" prefWidth="627.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Main"
+           stylesheets="@styles.css">
+    <Label  text="Username : " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Label  text="Password : " GridPane.columnIndex="0" GridPane.rowIndex="1" />
     <TextField fx:id="Username" GridPane.columnIndex="1" GridPane.rowIndex="0" />
     <PasswordField fx:id="Password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-    <Button onAction="#onMouseClicked" text="Login" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Button fx:id="login"  onAction="#onMouseClicked" text="Login" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 
    <Pane prefHeight="77.0" prefWidth="218.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
       <children>
@@ -23,7 +24,7 @@
    <Button mnemonicParsing="false" text="Forgot Password " GridPane.columnIndex="1" GridPane.rowIndex="5" />
    <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
       <children>
-         <Button layoutX="148.0" layoutY="174.0" mnemonicParsing="false" text="Admin Login" onAction="#Admin"/>
+         <Button layoutX="148.0" layoutY="174.0" mnemonicParsing="false" onAction="#Admin" text="Admin Login" />
       </children>
    </Pane>
    <columnConstraints>

@@ -8,36 +8,42 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Return">
-    <padding>
-        <Insets left="100" top="100" />
-    </padding>
-    <Label text="Enter Book Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <TextField fx:id="Book" promptText="Book Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+<?import javafx.scene.control.DialogPane?>
+<DialogPane fx:id="colordialog" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Return">
+    <content>
+        <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" >
+            <padding>
+                <Insets left="100" top="100" />
+            </padding>
+            <Label text="Enter Book Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="Book" promptText="Book Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
-    <Label text="Enter the name of the Issuee" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-    <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="5" />
-    <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Enter the name of the Issuee" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
-    <Button onAction="#Returnit" text="Return" GridPane.columnIndex="0" GridPane.rowIndex="7" />
-   <Button mnemonicParsing="false" onAction="#back" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="11" alignment="BOTTOM_RIGHT"/>
-   <columnConstraints>
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-   </rowConstraints>
-</GridPane>
+            <Button onAction="#Returnit" text="Return" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+
+    </content>
+</DialogPane>

@@ -9,43 +9,44 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Issue">
-    <padding>
-        <Insets left="100" top="100" />
-    </padding>
-    <Label text="Enter Book Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <TextField fx:id="Book" promptText="Book Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+<?import javafx.scene.control.DialogPane?>
+<DialogPane xmlns="http://javafx.com/javafx/8.0.121" fx:id="colordialog" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Issue">
+    <content>
+        <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" >
+            <padding>
+                <Insets left="100" top="100" />
+            </padding>
+            <Label text="Enter Book Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="Book" promptText="Book Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
-    <Label text="Enter the name of the Issuee" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-    <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="5" />
-    <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Enter the name of the Issuee" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <TextField fx:id="FirstName" promptText="First Name" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <TextField fx:id="LastName" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
-    <Button onAction="#Issueit" text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+            <Button onAction="#Issueit" text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="7" />
 
-    <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="10" />
-   <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="10">
-      <children>
-         <Button layoutX="70.0" layoutY="71.0" mnemonicParsing="false" text="Back" onAction="#back" />
-      </children>
-   </Pane>
+            <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="10" />
 
-   <columnConstraints>
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-   </rowConstraints>
-    
-</GridPane>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+
+        </GridPane>
+
+    </content>
+</DialogPane>

@@ -9,38 +9,45 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Delete_Account">
-    <padding>
-        <Insets left="100" top="100" />
-    </padding>
+<?import javafx.scene.control.DialogPane?>
+<DialogPane  fx:id="colordialog" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Delete_Account">
 
-    <Label text="Enter Library ID" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <TextField fx:id="delete" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-    <Button onAction="#validate" text="Delete Account" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <content>
+        <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5">
+            <padding>
+                <Insets left="100" top="100" />
+            </padding>
 
-    <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="5" />
-   <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
-      <children>
-         <Button layoutX="125.0" layoutY="108.0" mnemonicParsing="false" text="Back" onAction="#back" />
-      </children>
-   </Pane>
-   <columnConstraints>
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-   </rowConstraints>
-</GridPane>
+            <Label text="Enter Library ID" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="delete" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button onAction="#validate" text="Delete Account" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+            <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+
+            </Pane>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+
+    </content>
+
+</DialogPane>
+
