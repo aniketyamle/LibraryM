@@ -1018,81 +1018,106 @@
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="254" parent="233" name="PRIMARY">
+    <column id="254" parent="233" name="question">
+      <Position>4</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="255" parent="233" name="answer">
+      <Position>5</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="256" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>lib_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="255" parent="234" name="transaction_id">
+    <column id="257" parent="234" name="transaction_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="256" parent="234" name="firstname">
+    <column id="258" parent="234" name="firstname">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="234" name="secondname">
+    <column id="259" parent="234" name="secondname">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="234" name="book">
+    <column id="260" parent="234" name="book">
       <Position>4</Position>
       <DataType>varchar(300)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="234" name="issuedate">
+    <column id="261" parent="234" name="issuedate">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="234" name="returndate">
+    <column id="262" parent="234" name="returndate">
       <Position>6</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="234" name="fine">
+    <column id="263" parent="234" name="fine">
       <Position>7</Position>
       <DataType>decimal(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="262" parent="234" name="PRIMARY">
+    <column id="264" parent="234" name="status">
+      <Position>8</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="265" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>transaction_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="263" parent="235" name="user_id">
+    <column id="266" parent="235" name="user_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="264" parent="235" name="firstname">
+    <column id="267" parent="235" name="firstname">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="265" parent="235" name="secondname">
+    <column id="268" parent="235" name="secondname">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="266" parent="235" name="email">
+    <column id="269" parent="235" name="email">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="267" parent="235" name="mobileno">
+    <column id="270" parent="235" name="mobileno">
       <Position>5</Position>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="268" parent="235" name="PRIMARY">
+    <column id="271" parent="235" name="question">
+      <Position>6</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="235" name="answer">
+      <Position>7</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="273" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>

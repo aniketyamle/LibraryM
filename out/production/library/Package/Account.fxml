@@ -8,25 +8,26 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane fx:id="pane" alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Account">
+<?import com.jfoenix.controls.JFXButton?>
+<GridPane fx:id="pane" stylesheets="@Account.css" alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Account">
     <padding>
         <Insets left="100" top="100" />
     </padding>
     <Label text="Issue a book" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <Button onAction="#onIssue" text="Issue" GridPane.rowIndex="2" />
+    <JFXButton onAction="#onIssue" text="Issue" GridPane.rowIndex="2" />
 
     <Label text="Create a new account" GridPane.columnIndex="10" GridPane.rowIndex="0" />
-    <Button onAction="#OnCreate" text="Create" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+    <JFXButton onAction="#OnCreate" text="Create" GridPane.columnIndex="10" GridPane.rowIndex="2" />
 
     <Label text="Return a book" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-    <Button onAction="#onReturn" text="Return" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <JFXButton onAction="#onReturn" text="Return" GridPane.columnIndex="0" GridPane.rowIndex="5" />
 
     <Label text="Delete a account" GridPane.columnIndex="10" GridPane.rowIndex="4" />
-    <Button onAction="#OnDelete" text="Delete" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+    <JFXButton onAction="#OnDelete" text="Delete" GridPane.columnIndex="10" GridPane.rowIndex="5" />
    <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="11">
       <children>
           
-         <Button layoutX="138.0" layoutY="109.0" mnemonicParsing="false" text="Back" onAction="#back"/>
+         <Button fx:id="back" layoutX="138.0" layoutY="109.0" mnemonicParsing="false" text="Back" onAction="#back"/>
       </children>
    </Pane>
    <columnConstraints>

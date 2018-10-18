@@ -10,7 +10,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <?import javafx.scene.control.DialogPane?>
-<DialogPane  fx:id="colordialog" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Delete_Account">
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<DialogPane fx:id="material" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Delete_Account">
 
     <content>
         <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5">
@@ -18,9 +20,9 @@
                 <Insets left="100" top="100" />
             </padding>
 
-            <Label text="Enter Library ID" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-            <TextField fx:id="delete" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-            <Button onAction="#validate" text="Delete Account" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+            <JFXTextField promptText="Enter Library ID" fx:id="delete" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <JFXButton fx:id="bluebutton" onAction="#validate" text="Delete Account" GridPane.columnIndex="0" GridPane.rowIndex="3" />
 
             <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="5" />
             <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
