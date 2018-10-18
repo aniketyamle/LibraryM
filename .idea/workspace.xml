@@ -1,46 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="library:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69064113-6d5f-4367-af21-53c2e85c0b51" name="Default Changelist" comment="New updates">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/Account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/Admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/Forgot_Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package/Forgot_password.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70c1558e-ad5f-46f7-858a-a0a39856dba7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/70c1558e-ad5f-46f7-858a-a0a39856dba7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/library_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Create_Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Create_Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Create_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Create_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Delete_Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Issue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Issue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Issue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Issue.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Return.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/Package/Return.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/Package/Return.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Account.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Add_Books.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Add_Books.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Admin Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Admin Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Check_Book.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Check_Book.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Check_transaction.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Check_transaction.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Create_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Create_Account.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Create_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Create_Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/DB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Delete_Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Delete_Account.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Delete_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Delete_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Error_Dialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Error_Dialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Issue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Issue.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Issue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Return.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Return.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Return.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/Success_Dialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/Success_Dialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,7 +155,7 @@
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="Success_Dialog.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Success_Dialog.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Package/Success_Dialog.fxml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -181,6 +163,33 @@
             </state>
           </provider>
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="Create_Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package/Create_Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transactions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package/Transactions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Issue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
@@ -306,6 +315,24 @@
             <path>
               <item name="library" type="b2602c69:ProjectViewProjectNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="library_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,6 +340,14 @@
               <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -326,9 +361,9 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537290356956" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfoenix-9.0.6.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/library_jar/library.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -350,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package.Main" />
       <module name="library" />
@@ -361,6 +396,20 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="library" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/library_jar/library.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\HEISENBERG\IdeaProjects\library" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="library:jar" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.library" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -414,7 +463,7 @@
       <workItem from="1539766603688" duration="2718000" />
       <workItem from="1539782074626" duration="1791000" />
       <workItem from="1539842875235" duration="12244000" />
-      <workItem from="1539858590634" duration="264000" />
+      <workItem from="1539858590634" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="New updates">
       <created>1537423321639</created>
@@ -521,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539707734543</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New updates">
+      <created>1539858911351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1539858911351</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115382000" />
+    <option name="totallyTimeSpent" value="116030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,10 +594,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3279743" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32792208" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3215434" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
@@ -556,6 +611,7 @@
       <window_info id="Designer" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.2375189" />
       <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -571,7 +627,6 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="DB Browser" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
@@ -771,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Transactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package/Check_transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
@@ -821,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Create_Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package/Check.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c1558e-ad5f-46f7-858a-a0a39856dba7/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,17 +891,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="48" column="185" selection-start-line="48" selection-start-column="185" selection-end-line="48" selection-end-column="185" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package/Forgot_Password.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -922,16 +959,39 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Create_Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Transactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>library:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -939,7 +999,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

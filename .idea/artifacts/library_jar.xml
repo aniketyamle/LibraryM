@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="library:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/library_jar</output-path>
+    <root id="archive" name="library.jar">
+      <element id="module-output" name="library" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jfoenix-9.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Compressed/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Compressed/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
