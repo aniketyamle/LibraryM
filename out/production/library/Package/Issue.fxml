@@ -27,7 +27,6 @@
             <Button fx:id="bluebutton" onAction="#Issueit" text="Issue" GridPane.columnIndex="0" GridPane.rowIndex="7" />
          <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="11">
             <children>
-      
                   <Label fx:id="label" />
             </children>
          </Pane>
