@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<DialogPane fx:id="material" prefHeight="49.0" prefWidth="308.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+<Pane prefHeight="20.0" prefWidth="331.0">
+         <children>
+            <Label layoutX="29.0" layoutY="14.0" prefHeight="31.0" prefWidth="429.0" text="Wrong Details !! Try Again" />
+         </children></Pane>
+    </content>
+</DialogPane>

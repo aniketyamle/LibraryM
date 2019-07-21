@@ -1,0 +1,20 @@
+
+#anchorpane{
+    -fx-background-image: url(mountain3.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+    -fx-pref-height: 100%;
+}
+
+#whitebutton{
+    -jfx-button-type: FLAT;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.button{
+    -jfx-button-type: FLAT;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}

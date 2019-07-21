@@ -1,0 +1,40 @@
+
+#login{
+    -fx-text-fill: white;
+    -fx-background-color: blue;
+}
+
+#pane{
+    -fx-background-image: url(mountain.png);
+}
+
+
+#jfxloginbutton{
+    -jfx-button-type: FLAT;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+
+#material{
+    -fx-background-image: url(mountain.png);
+
+
+}
+#normalbutton{
+    -jfx-button-type: FLAT;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#normalbutton2{
+    -jfx-button-type: FLAT;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#bluebutton{
+    -jfx-button-type: FLAT;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+
+}

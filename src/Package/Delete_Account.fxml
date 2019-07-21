@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 
 <?import javafx.geometry.Insets?>
-<GridPane xmlns="http://javafx.com/javafx"
-          xmlns:fx="http://javafx.com/fxml"
-          fx:controller="Package.Delete_Account"
-          hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5"
-          alignment="top_left">
-    <padding>
-        <Insets left="100" top="100" />
-    </padding>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
 
-    <Label text="Enter Library ID" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-    <TextField fx:id="delete" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <Button text="Delete Account" GridPane.rowIndex="3" GridPane.columnIndex="0" onMouseClicked="#validate"/>
+<?import javafx.scene.control.DialogPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<DialogPane fx:id="material" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Package.Delete_Account">
 
-    <Label GridPane.rowIndex="5" GridPane.columnIndex="0" fx:id="label"/>
-</GridPane>
+    <content>
+        <GridPane alignment="top_left" hgap="20" prefHeight="400.0" prefWidth="600.0" style="-fx-font: 14px Helvetica" vgap="5">
+            <padding>
+                <Insets left="100" top="100" />
+            </padding>
+
+
+            <JFXTextField promptText="Enter Library ID" fx:id="delete" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <JFXButton fx:id="bluebutton" onAction="#validate" text="Delete Account" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+            <Label fx:id="label" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+
+            </Pane>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+
+    </content>
+
+</DialogPane>
+

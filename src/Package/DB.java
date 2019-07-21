@@ -8,7 +8,8 @@ public class DB {
         Connection con=null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://mysql.stackcp.com:51414/library-36395493","library-36395493","24p9m3r43i");
+            con=DriverManager.getConnection("jdbc:mysql://library.c4flwkue0p9r.ap-south-1.rds.amazonaws.com:3306/Library?autoReconnect=true&useSSL=false",
+                    "Smitesh98","Smitesh98");
         }catch(Exception e){System.out.println(e);}
         return con;
     }
